@@ -24,6 +24,7 @@ const typeDefs = gql`
     }
 `;
 
+
 //resolver
 const resolvers = {
     Query: {
