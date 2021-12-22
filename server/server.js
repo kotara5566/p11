@@ -8,20 +8,7 @@ const user = [
 
 
 //schema
-const typeDefs = gql`
-    type Query {
-        hello: String
-        hi: String
-        users: [User]
-        id: String
-        user(name: String): User
-    }
-    type User {
-        name: String
-        sex: String
-        id: String
-    }
-`;
+
 //resolver
 const resolvers = {
     Query: {
