@@ -2,7 +2,7 @@ import { ApolloServer, gql } from 'apollo-server';
 
 const user = [
     { name: "A", sex: "M"},
-    { name: "B", sex: "W"},
+    { name: "Piyawat", sex: "Male",id:"62022787"},
     { name: "C", sex: "M"},
 ]
 
@@ -19,6 +19,7 @@ const typeDefs = gql`
     type User {
         name: String
         sex: String
+        id: String
     }
 `;
 //resolver
