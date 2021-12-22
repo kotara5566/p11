@@ -5,6 +5,7 @@ const user = [
     { name: "Piyawat", sex: "Male",id:"62022787"},
     { name: "Wiritkorn", sex: "Male",id:"62022855"},
     { name: "Pongsapak", sex: "Male",id:"62021168"},
+    { name: "Wachirakan", sex: "Male",id:"62021214"},
 ]
 
 
