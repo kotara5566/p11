@@ -3,7 +3,7 @@ import path from "path"
 import getUser from "../utils/getUser"
 import { ApolloServer } from 'apollo-server-express';
 import dotenv from "dotenv";
-dotenv.config();
+dotenv.onfig();
 
 import resolvers from "./resolvers";
 //import typeDefs from './schema/typeDefs';
